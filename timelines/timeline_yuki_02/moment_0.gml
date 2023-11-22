@@ -1,0 +1,1 @@
+scr_declare_spell_card("YUKI",spr_stage4_spell,0);

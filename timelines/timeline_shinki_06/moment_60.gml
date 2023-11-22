@@ -1,0 +1,30 @@
+randomize();
+scr_shoot_bullet_enemy(1.5,270,spr_bullet_kunai,0,-48,0,false,snd_enemyfire);
+scr_shoot_bullet_enemy(1.5,270,spr_bullet_kunai,0,-16,0,false,snd_enemyfire);
+scr_shoot_bullet_enemy(1.5,270,spr_bullet_kunai,0,16,0,false,snd_enemyfire);
+scr_shoot_bullet_enemy(1.5,270,spr_bullet_kunai,0,48,0,false,snd_enemyfire);
+scr_shoot_bullet_enemy(1.5,90,spr_bullet_small,0,-48,0,false,snd_enemyfire);
+scr_shoot_bullet_enemy(1.5,90,spr_bullet_small,0,-16,0,false,snd_enemyfire);
+scr_shoot_bullet_enemy(1.5,90,spr_bullet_small,0,16,0,false,snd_enemyfire);
+scr_shoot_bullet_enemy(1.5,90,spr_bullet_small,0,48,0,false,snd_enemyfire);
+if global.difficulty >= 2 {
+	scr_shoot_bullet_enemy(1.5,315,spr_bullet_kunai,0,-48,0,false,snd_enemyfire);
+	scr_shoot_bullet_enemy(1.5,315,spr_bullet_kunai,0,-16,0,false,snd_enemyfire);
+	scr_shoot_bullet_enemy(1.5,315,spr_bullet_kunai,0,16,0,false,snd_enemyfire);
+	scr_shoot_bullet_enemy(1.5,315,spr_bullet_kunai,0,48,0,false,snd_enemyfire);
+	scr_shoot_bullet_enemy(1.5,135,spr_bullet_small,0,-48,0,false,snd_enemyfire);
+	scr_shoot_bullet_enemy(1.5,135,spr_bullet_small,0,-16,0,false,snd_enemyfire);
+	scr_shoot_bullet_enemy(1.5,135,spr_bullet_small,0,16,0,false,snd_enemyfire);
+	scr_shoot_bullet_enemy(1.5,135,spr_bullet_small,0,48,0,false,snd_enemyfire);
+	scr_shoot_bullet_enemy(1.5,225,spr_bullet_kunai,0,-48,0,false,snd_enemyfire);
+	scr_shoot_bullet_enemy(1.5,225,spr_bullet_kunai,0,-16,0,false,snd_enemyfire);
+	scr_shoot_bullet_enemy(1.5,225,spr_bullet_kunai,0,16,0,false,snd_enemyfire);
+	scr_shoot_bullet_enemy(1.5,225,spr_bullet_kunai,0,48,0,false,snd_enemyfire);
+	scr_shoot_bullet_enemy(1.5,45,spr_bullet_small,0,-48,0,false,snd_enemyfire);
+	scr_shoot_bullet_enemy(1.5,45,spr_bullet_small,0,-16,0,false,snd_enemyfire);
+	scr_shoot_bullet_enemy(1.5,45,spr_bullet_small,0,16,0,false,snd_enemyfire);
+	scr_shoot_bullet_enemy(1.5,45,spr_bullet_small,0,48,0,false,snd_enemyfire);
+}
+if j mod 5 == 0 {
+	scr_shoot_bullet_enemy(1.5,irandom_range(-30,30),spr_bullet_large,4,irandom_range(-64,64),0,true,snd_enemyfire);
+}
